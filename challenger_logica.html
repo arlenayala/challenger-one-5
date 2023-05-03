@@ -1,0 +1,94 @@
+<meta charset="UTF-8">
+
+
+<script>
+
+var cuadro = document.querySelector("textarea"); 
+var encriptar= document.querySelector("button");
+var desencriptar= document.querySelector("button");
+var reiniciar= document.querySelector("button");
+
+
+
+input.focus();
+encriptar.onclick()=Encriptar;
+desencriptar.onclick()=Desencriptar;
+reiniciar.onclick()=Reiniciar
+
+
+
+function Encriptar(cadena){
+
+    let resultado = "";
+  for(let i = 0; i < cadena.length; i++) {
+    let letra = cadena.charAt(i);
+    switch(letra) {
+      case "e":
+        resultado += "enter";
+        break;
+      case "i":
+        resultado += "imes";
+        break;
+      case "a":
+        resultado += "ai";
+        break;
+      case "o":
+        resultado += "ober";
+        break;
+      case "u":
+        resultado += "ufat";
+        break;
+      default:
+        resultado += letra;
+        break;
+    }
+  }
+  return resultado;
+}
+
+
+
+
+function Desencriptar(){
+  let mensaje_desencriptado = "";
+  for (let i = 0; i < mensaje.length; i++) {
+    if (mensaje.substring(i, i+5) === "enter") {
+      mensaje_desencriptado += "e";
+      i += 4;
+    } else if (mensaje.substring(i, i+4) === "imes") {
+      mensaje_desencriptado += "i";
+      i += 3;
+    } else if (mensaje.substring(i, i+2) === "ai") {
+      mensaje_desencriptado += "a";
+      i += 1;
+    } else if (mensaje.substring(i, i+4) === "ober") {
+      mensaje_desencriptado += "o";
+      i += 3;
+    } else if (mensaje.substring(i, i+4) === "ufat") {
+      mensaje_desencriptado += "u";
+      i += 3;
+    }
+  }
+  return mensaje_desencriptado;
+}
+
+    
+
+
+function Reiniciar () {
+
+
+}
+
+
+
+function saltarlinea () {   
+
+document.write ("<br>" ); 
+
+}
+
+<script/>
+
+
+

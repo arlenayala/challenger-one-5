@@ -1,0 +1,208 @@
+.encabezado {
+    text-align: center;
+    background:  #E5E5E5;
+    padding: 10px;
+
+}
+
+.nombre-imagen {
+    width: 940px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    color:darkblue;
+
+}
+
+.logo {
+    text-align: center;
+       
+}
+
+.input {
+
+    text-align: center;
+    background:#E5E5E5 ;
+   
+}
+
+.contenido-input {
+
+    display: inline-block;
+
+    width: 940px;
+    margin: 0 auto
+    
+    
+}
+
+.cuadro {
+   
+    font-size: 30px;
+    color: rgb(22, 53, 145);
+    padding: 30px;
+    box-sizing:border-box; 
+    border-radius: 10px;
+    margin-bottom: 80px 0;
+    border: none;
+    background:#E5E5E5 ;
+   outline: none;
+}
+
+.evento {
+    display: inline-block;
+    width:430px;
+    margin: 0 auto
+   
+}
+
+.lista-cuadro {
+
+    
+    background-color: white;
+    padding:100px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+       
+}
+
+.mensaje{
+  
+    font-size: 25px;
+    font-weight: bold;
+    padding: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+
+.ingresa {
+    font-size: 17px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+
+.botones {
+   text-align: center;
+    background:#E5E5E5 ;
+    padding: 10px;
+}
+
+.aviso {
+    
+    width: 750px;
+    padding: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.input-submit{
+
+    width: 940px;
+    padding: 0 auto;
+    text-align: center;
+}
+
+
+.boton1 {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background-color: rgb(22, 53, 145);
+    margin: 0;
+    width: 150px;
+    padding: 8px 8px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.boton2 {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background-color: #E5E5E5;
+    margin:0  20px;
+    padding: 8px 8px;
+    cursor: pointer;
+    
+}
+.boton3 {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background-color:  rgb(22, 53, 145);
+    padding: 8px 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.boton1:hover{
+    background: darkblue;
+    transform: scale(1.1);
+}
+
+.boton2:hover{
+    background: #E5E5E5;
+    transform: scale(1.1);
+}
+
+.boton3:hover{
+    background: darkblue;
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    background:#E5E5E5 ; 
+    padding: 2px;
+   
+}
+.arlen {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif 
+}
+
+@media screen and (max-width:480px){
+
+    .encabezado{
+
+        width: 140%;
+    }
+
+    .nombre-imagen{
+
+        text-align: left;
+    }
+
+    .input {
+
+        width: 144%;
+    }
+
+    .nombre-imagen,.contenido-input,.aviso,.input-submit{
+        width: auto;
+    }
+
+    .botones {
+        width: 140%;
+    }
+    .boton3 {
+        margin: 10px;
+    }
+
+    footer {
+
+        width: 144%;
+    }
+}
+    

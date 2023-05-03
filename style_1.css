@@ -1,0 +1,216 @@
+
+
+.encabezado {
+    text-align: center;
+    background:  #E5E5E5;
+    padding: 10px;
+
+}
+
+.nombre-imagen {
+    width: 940px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    color:darkblue;
+
+}
+
+.logo {
+    text-align: center;
+       
+}
+
+
+
+.input {
+    display: flex;
+    text-align: center;
+    background:#E5E5E5 ;
+   
+}
+
+.contenido-input {
+
+    display: inline-block;
+
+    width: 940px;
+    margin: 0 auto
+    
+    
+}
+
+.cuadro {
+   
+    font-size: 30px;
+    color: rgb(22, 53, 145);
+    padding: 30px;
+    box-sizing:border-box; 
+    border-radius: 10px;
+    margin-bottom: 80px 0;
+    border: none;
+    background:#E5E5E5 ;
+   outline: none;
+}
+
+.evento {
+    
+    width:400px;
+    margin: 0 auto
+    
+    
+ 
+}
+
+.mensaje {
+   
+    background-image: url(IMAGENES/Muñeco.png);
+    
+    background-size: contain; /* o background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:200px 80px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    outline: none;
+    border:none;
+    display: block;
+          
+}
+
+.boton-copiar {
+   
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background-color: white;
+    margin:0  20px;
+    padding: 8px 105px;
+    cursor: pointer;
+     
+   
+}
+  
+
+.botones-aviso {
+   text-align: center;
+    background:#E5E5E5 ;
+    padding: 10px;
+}
+
+.aviso {
+    text-align: center;
+    width: 890px;
+    padding: 0 auto;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.button {
+
+    width: 940px;
+    padding: 0 auto;
+    text-align: center;
+}
+
+
+.boton1 {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background-color: rgb(22, 53, 145);
+    margin: 0;
+    width: 150px;
+    padding: 8px 8px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.boton2 {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background-color: #E5E5E5;
+    margin:0  20px;
+    padding: 8px 8px;
+    cursor: pointer;
+    
+}
+
+
+.boton1:hover{
+    background: darkblue;
+    transform: scale(1.1);
+}
+
+.boton2:hover{
+    background: #E5E5E5;
+    transform: scale(1.1);
+}
+
+
+footer {
+    text-align: center;
+    background:#E5E5E5 ; 
+    padding: 2px;
+   
+}
+.arlen {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif 
+}
+
+@media screen and (max-width:480px){
+
+    .encabezado{
+
+        width: 140%;
+    }
+
+    .nombre-imagen{
+
+        text-align: left;
+    }
+
+    .input {
+
+        width: 144%;
+        display: block;
+    }
+
+    .nombre-imagen,.contenido-input,.aviso,.button{
+        width: auto;
+    }
+
+    .botones-aviso {
+        width: 140%;
+    }
+
+    .aviso {
+        text-align: left;
+    }
+
+    .button {
+      
+       display: flex;
+    }
+    
+
+    footer {
+
+        width: 140%;
+        text-align: left;
+        
+    }
+}
+    
