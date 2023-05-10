@@ -87,6 +87,7 @@
     display: flex;
     text-align: center;
     font-size: 18px;
+    color: #0a3871;
     font-style: italic;
     font-weight: bold;
     text-transform: uppercase;
@@ -123,7 +124,7 @@
 }
 
 
-.boton1 {
+.btn-encriptar {
     font-size: 18px;
     font-style: italic;
     font-weight: bold;
@@ -137,10 +138,11 @@
     cursor: pointer;
 }
 
-.boton2 {
+.btn-desencriptar {
     font-size: 18px;
     font-style: italic;
     font-weight: bold;
+    color: #0a3871;
     text-transform: uppercase;
     border-radius: 20px;
     background-color: #E5E5E5;
@@ -151,12 +153,12 @@
 }
 
 
-.boton1:hover{
+.btn-encriptar:hover{
     background: darkblue;
     transform: scale(1.1);
 }
 
-.boton2:hover{
+.btn-desencriptar:hover{
     background: #E5E5E5;
     transform: scale(1.1);
 }
