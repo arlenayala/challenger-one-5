@@ -53,6 +53,10 @@
    outline: none;
 }
 
+::placeholder {
+    color: #0a3871;
+}
+
 .evento {
     
     width:400px;
