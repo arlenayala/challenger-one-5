@@ -94,6 +94,7 @@
  
 
   .mensaje-placeholder:first-line {
+
     font-weight: bold;
     font-size: 15px;
     margin:20px
@@ -199,6 +200,20 @@ footer {
     text-align: center;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif 
+}
+
+.nav-links a:not(:last-child) {
+    margin-right: 30px; 
+  }
+
+.git {
+    max-width: 3%;
+    height: auto;
+}
+
+.linkedin {
+    max-width: 8%;
+    height: auto;
 }
 
 @media screen and (max-width:480px){

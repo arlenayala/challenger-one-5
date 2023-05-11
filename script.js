@@ -8,7 +8,7 @@ La letra "o" es convertida para "ober"
 La letra "u" es convertida para "ufat"*/
 
 // Obtener el botón de copiar
-const botonCopiar = document.querySelector(".boton-copiar");
+const botonCopiar = document.querySelector("#boton-copiar");
 
 // Agregar un evento de clic al botón
 botonCopiar.addEventListener("click", () => {
