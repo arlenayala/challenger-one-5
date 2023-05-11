@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width">
+      <link rel = "stylesheet" href="reset.css">
+      <link rel = "stylesheet" href="style_1.css"> 
+      <title> Challenger_1 </title>
+      
+     
+    </head>
+    
+    <body>
+      <header class="encabezado">
+
+        <div class="nombre-imagen">
+
+            <h1>Arlen Ayala</h1>
+            <img class="logo" src="IMAGENES/Vector.png" alt="logo de Alura">
+
+        </div>
+
+      </header>
+
+      <main>
+
+        <section class="input">
+
+            <div class="contenido-input">
+
+                <textarea id = "cuadro" class="cuadro"   cols="30" rows="10"   placeholder="ingrese el texto  aqui"></textarea>
+
+            </div>
+
+            <div class="evento">
+
+              
+
+              <textarea id="mensaje" class="mensaje" cols="20" rows="10" ></textarea>
+              <label for="mensaje" class="mensaje-placeholder">Ningún mensaje fue encontrado.<br>Ingresa el texto que deseas Encriptar o Desencriptar.</label>
+
+          
+              <button id="boton-copiar" class="boton-copiar">Copiar</button>
+        
+            </div>
+
+          
+        </section>
+
+    
+        <section class="botones-aviso">
+
+          <div class="aviso">
+
+            <p ><img src="IMAGENES/Vector (2).png" >Solo letras minusculas y sin acentos.</p>
+
+          </div>
+
+          <div class="button">
+
+              <button id="btn-encriptar" class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button> 
+              <button id="btn-desencriptar" class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>  
+
+          </div>
+
+        </section>
+
+      </main>
+
+    
+      <footer>
+
+        <p class="arlen">Creado por Arlen Ayala - Ingeniera Industrial</p>
+         
+      </footer>
+
+      <script src = "script.js"></script>
+
+    </body>  
+
+</html>
