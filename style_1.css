@@ -9,18 +9,12 @@
 
 .nombre-imagen {
     width: 940px;
-    text-align: center;
+    text-align:left;
     text-transform: uppercase;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    font-family:"inter"; 
     color:darkblue;
 
 }
-
-.logo {
-    text-align: center;
-       
-}
-
 
 
 .input {
@@ -43,6 +37,7 @@
 .cuadro {
    
     font-size: 30px;
+    text-transform: lowercase;
     color: rgb(22, 53, 145);
     padding: 30px;
     box-sizing:border-box; 
@@ -51,36 +46,64 @@
     border: none;
     background:#E5E5E5 ;
    outline: none;
+ 
+  
 }
 
 ::placeholder {
     color: #0a3871;
+  
+   
 }
 
 .evento {
-    
+    position: relative;
     width:400px;
     margin: 0 auto
     
-    
- 
 }
+
 
 .mensaje {
    
     background-image: url(IMAGENES/Muñeco.png);
-    
-    background-size: contain; /* o background-size: contain; */
+    background-size: contain; 
     background-repeat: no-repeat;
     background-position: center;
-    padding:200px 80px;
+    padding:200px 90px;
     box-sizing: border-box;
     border-radius: 20px;
     outline: none;
     border:none;
     display: block;
-          
+    
 }
+
+
+.mensaje-placeholder {
+    
+    position: absolute;
+    top: 5px; /* Ajusta la posición vertical del mensaje */
+    left: 5px; /* Ajusta la posición horizontal del mensaje */
+    color: #999; /* Cambia el color del mensaje según tus preferencias */
+    font-size: 14px; /* Ajusta el tamaño de fuente del mensaje según tus preferencias */
+    pointer-events: none; /* Permite hacer clic a través del mensaje */
+   
+  }
+
+ 
+
+  .mensaje-placeholder:first-line {
+    font-weight: bold;
+    font-size: 15px;
+    margin:20px
+
+  }
+
+  .hide-placeholder {
+    display: none;
+   
+  }
 
 .boton-copiar {
    
@@ -96,8 +119,10 @@
     margin:0  20px;
     padding: 8px 105px;
     cursor: pointer;
-     
-   
+    
+}
+.boton-copiar:hover {
+    transform: scale(1.1);
 }
   
 
@@ -154,12 +179,12 @@
 
 
 .btn-encriptar:hover{
-    background: darkblue;
+   
     transform: scale(1.1);
 }
 
 .btn-desencriptar:hover{
-    background: #E5E5E5;
+
     transform: scale(1.1);
 }
 
@@ -183,10 +208,7 @@ footer {
         width: 140%;
     }
 
-    .nombre-imagen{
-
-        text-align: left;
-    }
+  
 
     .input {
 

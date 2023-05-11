@@ -6,7 +6,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width">
       <link rel = "stylesheet" href="reset.css">
-      <link rel = "stylesheet" href="style_1.css">
+      <link rel = "stylesheet" href="style_1.css"> 
       <title> Challenger_1 </title>
       
      
@@ -35,11 +35,14 @@
             </div>
 
             <div class="evento">
+
+              
+
+              <textarea id="mensaje" class="mensaje" cols="20" rows="10" ></textarea>
+              <label for="mensaje" class="mensaje-placeholder">Ningún mensaje fue encontrado.<br>Ingresa el texto que deseas Encriptar o Desencriptar.</label>
+
           
-
-              <textarea id="mensaje" class="mensaje" cols="20" rows="10"></textarea>
-
-              <button class="boton-copiar">Copiar</button>
+              <button id="boton-copiar" class="boton-copiar">Copiar</button>
         
             </div>
 
@@ -58,7 +61,7 @@
           <div class="button">
 
               <button id="btn-encriptar" class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button> 
-              <button id="btn-desencriptar" class="btn-desencriptar">Desencriptar</button>  
+              <button id="btn-desencriptar" class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>  
 
           </div>
 
