@@ -38,7 +38,7 @@ function btnEncriptar() {
    
     const placeholder = document.querySelector(".mensaje-placeholder");
     placeholder.classList.add("hide-placeholder");
-    mensaje.style.fontSize = "20px";
+    mensaje.style.fontSize = "23px";
 }
 
 

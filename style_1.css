@@ -1,4 +1,6 @@
-
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 
 .encabezado {
     text-align: center;
@@ -16,6 +18,23 @@
 
 }
 
+.logo {
+    width: 40px;
+    transform: translateX(0px);
+    animation:float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);   
+    }
+    50% {
+        transform: translateY(-60px);   
+    }
+    100% {
+        transform: translateY(0px);   
+    }
+}
 
 .input {
     display: flex;
@@ -30,8 +49,7 @@
 
     width: 940px;
     margin: 0 auto
-    
-    
+      
 }
 
 .cuadro {
@@ -47,7 +65,6 @@
     background:#E5E5E5 ;
    outline: none;
  
-  
 }
 
 ::placeholder {
@@ -59,10 +76,9 @@
 .evento {
     position: relative;
     width:400px;
-    margin: 0 auto
+    margin: 0 ;
     
 }
-
 
 .mensaje {
    
@@ -70,7 +86,7 @@
     background-size: contain; 
     background-repeat: no-repeat;
     background-position: center;
-    padding:200px 90px;
+    padding:200px 95px;
     box-sizing: border-box;
     border-radius: 20px;
     outline: none;
@@ -79,19 +95,17 @@
     
 }
 
-
 .mensaje-placeholder {
     
     position: absolute;
+    text-align:center;
     top: 5px; /* Ajusta la posición vertical del mensaje */
     left: 5px; /* Ajusta la posición horizontal del mensaje */
     color: #999; /* Cambia el color del mensaje según tus preferencias */
-    font-size: 14px; /* Ajusta el tamaño de fuente del mensaje según tus preferencias */
+    font-size: 12px; /* Ajusta el tamaño de fuente del mensaje según tus preferencias */
     pointer-events: none; /* Permite hacer clic a través del mensaje */
    
   }
-
- 
 
   .mensaje-placeholder:first-line {
 
@@ -103,7 +117,6 @@
 
   .hide-placeholder {
     display: none;
-   
   }
 
 .boton-copiar {
@@ -118,7 +131,7 @@
     border-radius: 20px;
     background-color: white;
     margin:0  20px;
-    padding: 8px 105px;
+    padding: 8px 120px;
     cursor: pointer;
     
 }
@@ -126,7 +139,6 @@
     transform: scale(1.1);
 }
   
-
 .botones-aviso {
    text-align: center;
     background:#E5E5E5 ;
@@ -138,7 +150,7 @@
     width: 890px;
     padding: 0 auto;
     font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+   
 
 }
 
@@ -148,7 +160,6 @@
     padding: 0 auto;
     text-align: center;
 }
-
 
 .btn-encriptar {
     font-size: 18px;
@@ -162,6 +173,7 @@
     padding: 8px 8px;
     color: #ffffff;
     cursor: pointer;
+   
 }
 
 .btn-desencriptar {
@@ -178,17 +190,16 @@
     
 }
 
-
 .btn-encriptar:hover{
    
     transform: scale(1.1);
+  
 }
 
 .btn-desencriptar:hover{
 
     transform: scale(1.1);
 }
-
 
 footer {
     text-align: center;
@@ -209,11 +220,18 @@ footer {
 .git {
     max-width: 3%;
     height: auto;
+    
+}
+.git:hover {
+    transform: scale(1.1);
 }
 
 .linkedin {
     max-width: 8%;
     height: auto;
+}
+.linkedin:hover {
+    transform: scale(1.1);
 }
 
 @media screen and (max-width:480px){
@@ -223,14 +241,12 @@ footer {
         width: 140%;
     }
 
-  
-
     .input {
 
         width: 144%;
         display: block;
     }
-
+    
     .nombre-imagen,.contenido-input,.aviso,.button{
         width: auto;
     }
@@ -248,12 +264,14 @@ footer {
        display: flex;
     }
     
-
     footer {
 
         width: 140%;
+        text-align: left; 
+    }
+    
+    .arlen {
         text-align: left;
-        
     }
 }
     
